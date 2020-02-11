@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+*{
+	margin:0px;	/*消除所有元素的外边距*/
+	padding:0px;
+	font-size:14px; /*默认字体大小*/
+	/*border:1px solid #ff0000;*/
+}
+#top1{
+	width:10%;
+	height:150px;	
+	background-color:#f182c1;
+}
+#top2{
+	width:80%;
+	height:150px;	
+	background-color:red;
+	margin-left:10%;
+	margin-top:-150px;
+}
+#top3{
+	width:10%;
+	height:150px;	
+	background-color:#f182c1;
+	margin-left:90%;
+	margin-top:-150px;
+}
+#topGrayNav{	
+	height:32px;
+	background-image:url(../imgs/bg1.jpg);	
+	float:right;
+}
+
+#topBanner{	
+    top:0px;
+	width:100%;
+	height:32px;	
+	margin:0px auto;
+	position:relative;
+}
+
+#topGrayNavSon{
+	width:1290px;	
+	margin:auto;
+}
+#topGrayNavSon-left{
+	width:212px;
+	float:left;	
+}
+#topGrayNavSon-right{	
+    top:500px;
+	width:1000px;	
+	float:left;
+	margin-left:20px;
+}
+
+#user-positon-img{
+	margin-left:10px;
+	margin-top:10px;
+	height:15px;
+	width:15px;
+	float:left;	
+}
+#user-positon-text{
+	width:40px;
+	height:20px;
+	float:left;
+	margin-top:5px;	
+	margin-left:10px;
+}
+#user-Login{
+	width:150px;
+	float:left;
+	margin-left:210px;
+	margin-top:5px;
+	text-align:center;	
+}
+#navRight{
+	float:right;
+	width:630px;
+	list-style:none;	/*覆盖前面项目选择符*/
+	margin-top:5px;
+}
+#navRight .sep{
+	width:6px;
+	height:13px;
+	float:left;	
+}
+#navRight .textNr{
+	width:80px;
+	height:20px;
+	float:left;
+	text-align:center;	
+	color:#999;
+}
+
+/*搜索栏*/
+#topWhiteNav{
+	top:0px;
+	width:100%;
+	height:168px;	
+	margin:0px auto;
+	position:relative;
+}
+#left{
+	margin-left:10%;
+	
+}
+#search {
+    position: relative;
+    z-index: 1;
+    margin-top:-100px;
+	margin-left:26%;
+}
+.search-m {
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+
+.search-m .form {
+   
+    left: 260px;
+    margin-top: -150px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+.search-m .button, .search-m .search_bg, .search-m .text {
+   
+    
+    outline: none;
+}
+.o2_mini .search-m .search_bg, .o2_mini .search-m .text {
+    width: 367px;
+}
+.search-m .search_bg, .search-m .text {
+    margin-top: -33px;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 8px;
+}
+.search-m .button {
+    border-radius: 0;
+    margin-left: 547px;
+    width: 58px;
+    height: 36px;
+    margin-top: -2px;
+    line-height: 32px;
+    border: none;
+    background-color: #e1251b;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+}
+.text {
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+#settleup {
+    position: relative;
+    left: 650px;
+    top: -50px;
+    z-index: 21;      
+	WIDTH:38%;
+}
+#settleup .cw-icon {
+    width: 130px;                                            
+    height: 34px;
+	top: 5px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border-color: #eee;
+}
+
+.cw-icon {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+}
+#navitems {
+    overflow: hidden;
+    position: absolute;
+    margin-left: 250px;
+    padding-top: 20px;
+	padding-left: 80px;
+}
+#navitems .spacer {
+    overflow: hidden;
+    width: 0;
+    height: 13px;
+	
+}
+#navitems ul {
+    float: left;
+}
+#navitems .spacer, #navitems li, #navitems ul {
+    float: left;
+}
+#navitems li {
+    margin-left: 1px;
+}
+li {
+    list-style: none;
+}
+#navitems-group1 .fore1 a, #navitems-group1 .fore2 a {
+    font-weight: 700;
+    color: #e1251b;
+}
+
+#navitems a {
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+    margin: 0 11px;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#hotwords {
+    overflow: hidden;
+    position: absolute;
+	margin-left: 400px;
+    margin-top: -20px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+	font-size:14px;
+	}
+#hotwords a {
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+}
+#code11{
+	margin-left:20%;
+	margin-top:10px;
+	
+}
+
+#four1{
+	width:10%;
+	height:500px;	
+	background-color:#fff;
+	margin-top:100px;
+}
+#four2{
+	width:70%;
+	height:500px;	
+	background-color:#fff;
+	margin-left:10%;
+	margin-top:-500px;
+}
+#four3{
+	width:20%;
+	height:500px;	
+	background-color:#fff;
+	margin-left:80%;
+	margin-top:-500px;
+}
+#weiba{
+	width:100%;
+	border:1px solid #000;
+	margin-top: 520px;
+	height:150px;	
+	background-color:#fff;
+}
